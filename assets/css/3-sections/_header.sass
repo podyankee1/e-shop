@@ -1,21 +1,64 @@
-body
-  +background-image( linear-gradient(to top,rgba(232, 242, 33, .75), rgba(89, 206, 244, .75)) )
-  background-repeat: no-repeat
-  padding: 20px 100px
-h1
-  color: pink
+.header-top
+  +clearfix
+  border-bottom: 1px solid #eee
 
-.phone
-  +size(90px)
-  border-radius: 100%
-  background-color: rgb(162, 214, 240)
-  position: relative
+.logo
+  float: left
+  text-transform: uppercase
+  font-size: 1.375em
+  font-family: "RobotoCondensed-Regular", sans-serif
 
-.fa
-  color: yellow
-  font-size: em(72px)
+.contact-basket
+  float: right
+  p
+    float: left
+    font-size: .75em
+    font-weight: 600
+    img
+      vertical-align: middle
+      margin-right: 3px
 
-i
-  position: absolute
-  top: 15px
-  left: 23px
+.header-phone
+  padding-top: 8px
+
+.header-basket
+  border: 1px solid  #eee
+  padding: 7px 25px
+  margin-left: 20px
+  a
+    text-transform: uppercase
+    color: #7e7f84
+    text-decoration: none
+    margin-left: 20px
+    &:hover
+      color: #f45a40
+
+.menu, .search-block
+  float: left
+
+.menu
+  li
+    float: left
+    text-transform: uppercase
+    margin-right: 30px
+    font-size: .875em
+    a
+      color: #7e7f84
+      text-decoration: none
+      &:hover
+        color: #f45a40
+
+.search-block
+  padding-top: 15px
+
+.search-btn
+  float: left
+  margin: 2px 5px 0 0
+
+.search
+  float: left
+  font-size: .875em
+  color: #7e7f84
+  border: none
+  outline: none
+  line-height: 1.4
