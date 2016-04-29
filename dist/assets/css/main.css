@@ -131,6 +131,12 @@ input[type=submit]:active {
   color: #f45a40;
 }
 
+.header-bottom::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
 .menu, .search-block {
   float: left;
 }
@@ -167,6 +173,67 @@ input[type=submit]:active {
   border: none;
   outline: none;
   line-height: 1.4;
+}
+
+.my-slider ul li {
+  position: relative;
+  color: #f45a40;
+}
+
+.my-slider ul li h2 {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  font-size: 3.6875em;
+  text-transform: uppercase;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.my-slider ul li p {
+  position: absolute;
+  top: 370px;
+  left: 30px;
+  font-size: 0.875em;
+}
+
+.unslider-nav {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+  top: -50px;
+}
+
+.block-3-main::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.block-3-main article {
+  width: 31.6%;
+  float: left;
+  margin-left: 2.6%;
+}
+
+.block-3-main article:first-child {
+  margin-left: 0;
+}
+
+.block-3-main article img {
+  display: block;
+  margin: 0 auto 20px auto;
+}
+
+.block-3-main article h2 {
+  font-family: "Roboto Condensed Regular", sans-serif;
+  font-size: 1.375em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.block-3-main article p {
+  font-size: .875em;
 }
 
 /*# sourceMappingURL=../maps/main.css.map */

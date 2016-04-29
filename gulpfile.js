@@ -29,7 +29,7 @@ env = process.env.NODE_ENV || 'development';
 sassSources = ['assets/css/'];
 jadeSources = ['_jadefiles/*.jade'];
 imgSources = ['assets/img/**/*.*'];
-jsSources  = ['assets/libs/jquery/dist/jquery.min.js','assets/libs/magnific-popup/dist/jquery.magnific-popup.min.js']
+jsSources  = ['assets/libs/jquery/dist/jquery.min.js','assets/libs/unslider/dist/js/unslider-min.js']
 
 if (env==='development')
 	{
