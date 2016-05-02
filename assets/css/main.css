@@ -470,4 +470,128 @@ p.price-basket::after {
   background: #ff974f;
 }
 
+@media (max-width: 900px) {
+  .my-slider ul li h2 {
+    top: 150px;
+    font-size: 3em;
+  }
+  .my-slider ul li p {
+    top: 280px;
+  }
+  .block-4-main article {
+    width: 45%;
+    margin: 0 2.5% 30px 2.5%;
+  }
+  .block-4-main article:first-child {
+    margin: 0 2.5% 30px 2.5%;
+  }
+  .subscribe h2 {
+    float: none;
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+  .subscribe-form {
+    float: none;
+    display: table;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 740px) {
+  .my-slider ul li h2 {
+    top: 100px;
+    font-size: 2em;
+  }
+  .my-slider ul li p {
+    top: 190px;
+  }
+  .search-block {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    margin-top: 10px;
+    padding: 5px 0 7px 0;
+    float: right;
+  }
+}
+
+@media (max-width: 600px) {
+  .block-3-main article {
+    width: 95%;
+    float: none;
+    margin: 0 2.5% 30px 2.5%;
+  }
+  .block-3-main article:first-child {
+    margin: 0 2.5% 30px 2.5%;
+  }
+  .block-3-main article img {
+    width: 100%;
+  }
+  .about article {
+    float: none;
+    width: 95%;
+    margin: 0 2.5% 30px 2.5%;
+  }
+  .about .map {
+    float: none;
+    width: 95%;
+    margin: 0 2.5% 30px 2.5%;
+  }
+}
+
+@media (max-width: 480px) {
+  .my-slider ul li h2 {
+    top: 50px;
+    font-size: 1.275em;
+  }
+  .my-slider ul li p {
+    top: 110px;
+  }
+  .block-4-main article {
+    width: 95%;
+    margin: 0 2.5% 30px 2.5%;
+    float: none;
+    overflow: hidden;
+  }
+  .block-4-main article:first-child {
+    margin: 0 2.5% 30px 2.5%;
+    float: none;
+  }
+}
+
+@media (max-width: 410px) {
+  .header-top {
+    padding: 10px 0;
+  }
+  .logo {
+    float: none;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .container-basket {
+    float: none;
+    display: table;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .email-input {
+    float: none;
+    width: 95%;
+    margin: 0 2.5% 20px 2.5%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .submit-input {
+    margin-left: 2.5%;
+  }
+  .my-slider ul li h2 {
+    top: 30px;
+    font-size: 1em;
+  }
+  .my-slider ul li p {
+    top: 80px;
+  }
+}
+
 /*# sourceMappingURL=../maps/main.css.map */
